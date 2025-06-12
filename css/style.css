@@ -3,6 +3,7 @@ body {
   font-weight: 100;
   background-color: #1b1a21;
   color: #f8f4e3;
+  text-align: center;
 }
 
 #container {
@@ -54,21 +55,21 @@ body {
 }
 
 #main-title {
-  margin: 0;
-  text-align: center;
+  margin: 0 auto;
+  width: 70%;
   font-size: 46px;
+  text-align: center;
 }
 
 .description {
-  margin: 20px auto 20px;
-  text-align: center;
+  margin: 20px auto;
+  width: 70%;
   font-size: 14px;
 }
 
 .title {
   font-size: 28px;
   margin: 10px auto;
-  padding-left: 80px;
   width: 70%;
 }
 
@@ -89,25 +90,27 @@ body {
   line-height: 50px;
 }
 
-p {
+p:not(.description) {
   margin: 0 auto;
-  padding-left: 80px;
   width: 70%;
   font-size: 14px;
   line-height: 30px;
 }
 
-ul.list, ol.list {
-  margin: 0 auto;
-  padding-left: 120px;
-  width: 70%;
-  font-size: 14px;
-  line-height: 30px;
+.ol-container, .ul-container {
+  padding-left: 20%;
 }
 
-#indent {
+.ol-container li, .ul-container li {
+  margin: 0 auto;
+  width: 70%;
+  padding-left: 8px;
+  font-size: 14px;
+  text-align: left;
+}
+
+#space {
   margin: 10px auto 5px;
-  padding-left: 20px;
 }
 
 strong {
@@ -117,4 +120,13 @@ strong {
 
 em {
   font-size: 10px;
+}
+
+.section {
+  width: 70%;
+  margin: 10px auto 20px;
+}
+
+iframe {
+  margin-top: 20px;
 }
