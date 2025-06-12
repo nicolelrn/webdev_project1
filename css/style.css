@@ -57,13 +57,67 @@ body {
 
 #main-title {
   margin: 0;
-  font-size: 38px;
+  text-align: center;
+  font-size: 46px;
 }
 
 .description {
+  margin: 20px auto 20px;
+  text-align: center;
   font-size: 14px;
+}
+
+.title {
+  font-size: 28px;
+  margin: 10px auto;
+  padding-left: 80px;
+  width: 70%;
+}
+
+.title:not(#intro) {
+  text-decoration: underline;
+}
+
+.divider {
+  height: 2px;
+  background-color: #17161c;
+  margin: 25px auto;
+  width: 70%;
+  
+}
+
+#name {
+  font-size: 60px;
+  font-family: 'MonteCarlo', Arial, cursive;
+  line-height: 50px;
+}
+
+p{
+  margin: 0 auto;
+  padding-left: 80px;
+  width: 70%;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+ul.list, ol.list  {
+  margin: 0 auto;
+  padding-left: 120px;
+  width: 70%;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#indent {
+  margin: 10px auto 5px;
+  padding-left: 20px;
 }
 
 strong {
   color: #ee2f25;
+  font-weight: 600;
+}
+
+em {
+  font-size: 10px;
 }
