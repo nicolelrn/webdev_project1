@@ -10,13 +10,12 @@ body {
   width: 85%;
 }
 
-
 #nav-bar {
+  float: left;
+  position: relative;
+  width: 100%;
   background-color: #1b1a21;
   border-bottom: 4px solid #17161c;
-  width: 100%;
-  position: relative;
-  float: left;
   margin-bottom: 20px;
 }
 
@@ -42,7 +41,6 @@ body {
   text-decoration: none;
   padding: 0 50px;
   display: block;
-
 }
 
 #nav-bar ul li a:hover {
@@ -83,7 +81,6 @@ body {
   background-color: #17161c;
   margin: 25px auto;
   width: 70%;
-  
 }
 
 #name {
@@ -92,7 +89,7 @@ body {
   line-height: 50px;
 }
 
-p{
+p {
   margin: 0 auto;
   padding-left: 80px;
   width: 70%;
@@ -100,7 +97,7 @@ p{
   line-height: 30px;
 }
 
-ul.list, ol.list  {
+ul.list, ol.list {
   margin: 0 auto;
   padding-left: 120px;
   width: 70%;
