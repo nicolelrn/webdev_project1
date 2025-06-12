@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Nicole | Things I Like</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ledger&family=MonteCarlo&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <nav>
+  <nav id="nav-bar">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="things_i_like.html">Things I Like</a></li>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="things_i_like.html" class="active">Things I Like</a></li>
       <li><a href="things_i_enjoy.html">Things I Enjoy</a></li>
     </ul>
   </nav>
-  <h1>Things I Like</h1>
-  <p>These are some of my personal favorites.</p>
-  <div>
-    <img src="images/matcha.jpg" alt="A matcha drink.">
-    <p>Matcha-flavored drinks and sweets.</p>
-  </div>
-  <div>
-    <img src="images/pesto.jpg" alt="Creamy pesto pasta with basil on top.">
-    <p>Creamy pesto pasta.</p>
-  </div>
-  <div>
-    <img src="images/katsu.jpg" alt="Katsu curry udon on a black bowl.">
-    <p>Japanese cuisine.</p>
-  </div>
-  <div>
-    <img src="images/catdog.jpg" alt="A kitten and golden retriever puppy.">
-    <p>Dogs. And cats.</p>
+    
+    <div id="container">
+      <h1 id="main-title">_things I like</h1>
+      <p class="description">These are some of my personal favorites.</p>
+      <div class="divider"></div>
+      
+      <div class="section">
+        <img src="images/matcha.jpg" alt="A matcha drink.">
+        <p>Matcha-flavored drinks and sweets.</p>
+      </div>
+      
+      <div class="section">
+        <img src="images/pesto.jpg" alt="Creamy pesto pasta with basil on top.">
+        <p>Creamy pesto pasta.</p>
+      </div>
+      
+      <div class="section">
+        <img src="images/katsu.jpg" alt="Katsu curry udon on a black bowl.">
+        <p>Japanese cuisine.</p>
+      </div>
+      
+      <div class="section">
+        <img src="images/catdog.jpg" alt="A kitten and golden retriever puppy.">
+        <p>Dogs. And cats.</p>
+      </div>
+      
   </div>
 </body>
 </html>
